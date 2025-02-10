@@ -692,8 +692,8 @@ class MainQRFInterface : AppCompatActivity() {
     }
 
     private fun createRequest(): Request {
-        val webSocketUrl = "wss://free.blr2.piesocket.com/v3/qrfchannel?api_key=4TRTtRRXmvNwXCWUFIjgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
-        // val webSocketUrl = "wss://free.blr2.piesocket.com/v3/qrfinstance?api_key=4TRTtRRXmvNwXCWUFIjgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
+        val webSocketUrl = "wss://free.blr2.piesocket.com/v3/qrfchannel?api_key=asdffdFIjgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
+        // val webSocketUrl = "wss://free.blr2.piesocket.com/v3/qrfinstance?api_key=asdfddfgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
         return Request.Builder()
             .url(webSocketUrl)
             .build()
