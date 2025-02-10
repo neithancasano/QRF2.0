@@ -146,8 +146,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createRequest(): Request {
-        val webSocketUrl = "wss://free.blr2.piesocket.com/v3/1?api_key=4TRTtRRXmvNwXCWUFIjgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
-        /// val webSocketUrl = "wss://free.blr2.piesocket.com/v3/qrfinstance?api_key=4TRTtRRXmvNwXCWUFIjgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
+        val webSocketUrl = "wss://free.blr2.piesocket.com/v3/1?api_key=asdfasdfUFIjgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
+        /// val webSocketUrl = "wss://free.blr2.piesocket.com/v3/qrfinstance?api_key=asdfasdfCWUFIjgKLDdZJ0zwoKpzn5ydd7Y&notify_self=1"
         return Request.Builder()
             .url(webSocketUrl)
             .build()
