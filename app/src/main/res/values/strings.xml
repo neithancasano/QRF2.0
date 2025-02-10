@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QRF2024</string>
+
+    <string-array name="softwareList">
+        <item>WHIMC</item>
+        <item>Decimal Point</item>
+        <item>Ocean Adventure</item>
+        <!-- Add more items here -->
+    </string-array>
+</resources>
